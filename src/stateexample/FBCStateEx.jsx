@@ -1,15 +1,18 @@
 import React from 'react'
 
 const FBCStateEx = () => {
-    const [value ,setvalue] =React.useState(0);
+    // const data = React.useState("Hi");
+    // console.log(data);
+
+    const [value ,setValue] =React.useState(0);
     console.log(value);
-    const cahngevalue=()=>{
-        setvalue(1000);
+    const changeValue=()=>{
+        setValue(1000);
     }
   return (
     <div>FBCStateEx
-      <h1>{value}</h1>
-      <button onClick={cahngevalue}>Change Value</button>
+        <h1>{value}</h1>
+        <button onClick={changeValue}>changevalue</button>
     </div>
   )
 }
