@@ -146,13 +146,14 @@
 // export default App
 // !hooks examples
 import React from 'react';
-import UseEffectEx from './hookexamples/UseEffectEx';
+// import UseEffectEx from './hookexamples/UseEffectEx';
+import RefExamples from './hookexamples/RefExamples';
 
 
 function App() {
   return (
     <div className="App">
-      <UseEffectEx/>
+      <RefExamples/>
     </div>
   );
 }
